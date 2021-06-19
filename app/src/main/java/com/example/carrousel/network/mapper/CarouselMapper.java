@@ -9,7 +9,7 @@ import java.util.List;
 
 public class CarouselMapper {
     public static CarouselItem toCarouselItem(Image image) {
-        return new CarouselItem(image.getImage());
+        return new CarouselItem(image.getImage(), image.getId());
     }
 
     public static List<CarouselItem> toCarouselItem(List<Image> image) {
