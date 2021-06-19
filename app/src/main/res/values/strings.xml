@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Carrousel</string>
+    <string name="retry">Reintentar</string>
 </resources>
